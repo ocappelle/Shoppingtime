@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610739EF1A700F4E0052801E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610739EE1A700F4E0052801E /* AddTaskViewController.swift */; };
+		610739F11A7011590052801E /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610739F01A7011590052801E /* DismissSegue.swift */; };
+		61243BA61A70142900341557 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61243BA51A70142900341557 /* Task.swift */; };
+		61243BA81A70187300341557 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61243BA71A70187300341557 /* Note.swift */; };
+		61243BAA1A70189000341557 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61243BA91A70189000341557 /* TaskStore.swift */; };
 		61EE86B41A27538500229C47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE86B31A27538500229C47 /* AppDelegate.swift */; };
 		61EE86B61A27538500229C47 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE86B51A27538500229C47 /* MasterViewController.swift */; };
 		61EE86B81A27538500229C47 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EE86B71A27538500229C47 /* DetailViewController.swift */; };
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		610739EE1A700F4E0052801E /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		610739F01A7011590052801E /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		61243BA51A70142900341557 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		61243BA71A70187300341557 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		61243BA91A70189000341557 /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		61EE86AE1A27538500229C47 /* Shoppingtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppingtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61EE86B21A27538500229C47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61EE86B31A27538500229C47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +93,11 @@
 				61EE86B51A27538500229C47 /* MasterViewController.swift */,
 				61EE86B71A27538500229C47 /* DetailViewController.swift */,
 				61EE86B91A27538500229C47 /* Main.storyboard */,
+				61243BA51A70142900341557 /* Task.swift */,
+				61243BA91A70189000341557 /* TaskStore.swift */,
+				61243BA71A70187300341557 /* Note.swift */,
+				610739EE1A700F4E0052801E /* AddTaskViewController.swift */,
+				610739F01A7011590052801E /* DismissSegue.swift */,
 				61EE86BC1A27538500229C47 /* Images.xcassets */,
 				61EE86BE1A27538500229C47 /* LaunchScreen.xib */,
 				61EE86B11A27538500229C47 /* Supporting Files */,
@@ -216,7 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				61EE86B81A27538500229C47 /* DetailViewController.swift in Sources */,
+				610739F11A7011590052801E /* DismissSegue.swift in Sources */,
+				61243BAA1A70189000341557 /* TaskStore.swift in Sources */,
+				61243BA81A70187300341557 /* Note.swift in Sources */,
+				610739EF1A700F4E0052801E /* AddTaskViewController.swift in Sources */,
 				61EE86B61A27538500229C47 /* MasterViewController.swift in Sources */,
+				61243BA61A70142900341557 /* Task.swift in Sources */,
 				61EE86B41A27538500229C47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Shoppingtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Shoppingtime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +433,7 @@
 				61EE86D11A27538500229C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61EE86D21A27538500229C47 /* Build configuration list for PBXNativeTarget "ShoppingtimeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +442,7 @@
 				61EE86D41A27538500229C47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
