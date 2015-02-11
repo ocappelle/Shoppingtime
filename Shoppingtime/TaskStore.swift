@@ -15,6 +15,12 @@ class TaskStore {
         }
         return Static.instance
     }
+    
+    init() {
+        add(Task(title: "Groenplaats supermarkt", note: "Groenten kopen"))
+        add(Task(title: "Mediamarkt", note: "PS4 kopen"))
+    }
+    
     var tasks: [Task] = []
     
     var count: Int {

@@ -14,6 +14,8 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var noteText: UITextView!
 
+    @IBOutlet weak var dateText: UITextField!
+    
     var detailItem: Task? {
         didSet {
             // Update the view.
@@ -29,6 +31,11 @@ class DetailViewController: UIViewController {
             }
             if let note = self.noteText {
                 note.text = detail.note
+            }
+            if let date = self.dateText {
+                if let tempDate = detail.dateAndTime {
+                    date.text = split(tempDate.description, { $0 == "+"})[0]
+                }
             }
         }
     }

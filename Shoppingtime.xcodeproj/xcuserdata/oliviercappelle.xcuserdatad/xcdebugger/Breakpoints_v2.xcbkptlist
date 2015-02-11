@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shoppingtime/TaskStore.swift"
+            timestampString = "445352169.540937"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "TaskStore"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shoppingtime.TaskStore.tasks.getter : Swift.Array&lt;Shoppingtime.Task&gt;"
+                  moduleName = "Shoppingtime"
+                  urlString = "file:///Users/oliviercappelle/Programming%20projects/Shoppingtime/Shoppingtime/TaskStore.swift"
+                  timestampString = "445352202.741445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shoppingtime.TaskStore.tasks.setter : Swift.Array&lt;Shoppingtime.Task&gt;"
+                  moduleName = "Shoppingtime"
+                  urlString = "file:///Users/oliviercappelle/Programming%20projects/Shoppingtime/Shoppingtime/TaskStore.swift"
+                  timestampString = "445352202.741835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shoppingtime.TaskStore.tasks.materializeForSet : Swift.Array&lt;Shoppingtime.Task&gt;"
+                  moduleName = "Shoppingtime"
+                  urlString = "file:///Users/oliviercappelle/Programming%20projects/Shoppingtime/Shoppingtime/TaskStore.swift"
+                  timestampString = "445352202.742115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
